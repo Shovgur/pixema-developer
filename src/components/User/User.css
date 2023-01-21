@@ -1,0 +1,81 @@
+.user {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  width: 267px;
+}
+
+.user__info {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.user__icon {
+  cursor: pointer;
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  width: 56px;
+  height: 56px;
+  background: #7b61ff;
+  border-radius: 10px;
+}
+
+.user__icon__name {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0.05em;
+  color: #ffffff;
+}
+
+.user__username {
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+}
+
+.expand_more {
+  color: #afb2b6;
+  transition: 0.3s;
+  cursor: pointer;
+  transform: rotate(-90deg) translate(0px, 0px);
+}
+
+.expand_more._active {
+  color: #ffffff;
+  transform: translate(0px, 0px);
+}
+
+.menu {
+  margin-top: 50px;
+  height: 112px;
+  width: 267px;
+  display: flex;
+  flex-direction: column;
+  background: #242426;
+  border-radius: 10px;
+}
+.menuItem {
+  font-family: "Exo 2", sans-serif;
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  padding: 16px 20px;
+  color: #ffffff;
+  transition: 0.3s;
+}
+
+.menuItem:not(:last-child) {
+  border-bottom: 1px solid #323537;
+}
+
+.menuItem:hover {
+  color: #7b61ff;
+}

@@ -1,0 +1,11 @@
+.showMoreBtn {
+  padding: 8px 25px;
+  background-color: #323537;
+  border: none;
+  border-radius: 40px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+}

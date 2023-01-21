@@ -1,0 +1,29 @@
+.authorization {
+  background-color: linear-gradient(180deg, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0) 23.56%);
+  background-image: url("../../images/auth-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.authorization__container {
+  min-height: 100vh;
+  padding: 48px 62px 64px;
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.authorization__container header {
+  align-self: flex-start;
+}
+
+.authorization__container footer {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+}

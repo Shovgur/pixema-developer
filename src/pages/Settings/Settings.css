@@ -1,0 +1,100 @@
+.settings__container label,
+.settings__theme__content__info__theme {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+}
+
+.settings__profile__label,
+.settings__password__label,
+.settings__theme__label {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+  color: #ffffff;
+}
+
+.settings__profile,
+.settings__password,
+.settings__theme {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.settings__profile__content,
+.settings__password__content,
+.settings__theme__content {
+  background-color: #242426;
+  border-radius: 10px;
+}
+
+.settings__profile__content,
+.settings__password__content {
+  padding: 40px;
+}
+
+.settings__profile__content__name,
+.settings__profile__content__email,
+.settings__password__content__password,
+.settings__password__content__newPassword,
+.settings__password__content__confirmPassword {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  width: 100%;
+}
+
+.settings__profile__content,
+.settings__password__content {
+  display: flex;
+  gap: 40px;
+  width: 100%;
+}
+
+.settings__container {
+  display: flex;
+  max-width: 1186px;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.settings__password__content__column {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  width: 100%;
+}
+
+.settings__theme__content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 24px 40px;
+}
+
+.settings__theme__content__info {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.settings__theme__content__info__help {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #afb2b6;
+}
+
+.settings__tabs {
+  max-width: 572px;
+  width: 100%;
+  align-self: flex-end;
+  margin-top: 8px;
+  display: flex;
+  gap: 40px;
+}

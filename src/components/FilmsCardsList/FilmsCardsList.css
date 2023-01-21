@@ -1,0 +1,12 @@
+.films__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 64px;
+}
+
+.films__list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+}

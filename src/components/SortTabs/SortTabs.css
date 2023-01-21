@@ -1,0 +1,28 @@
+.sortTabs {
+  max-width: 438px;
+  height: 56px;
+  border: 2px solid #323537;
+  border-radius: 10px;
+  display: flex;
+  overflow: hidden;
+  margin-bottom: 32px;
+}
+
+.sortTabs__btn {
+  width: 100%;
+  background-color: #242426;
+  border: none;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #80858b;
+}
+
+.sortTabs__btn._active {
+  background-color: #323537;
+  color: #ffffff;
+}
+
+.sortTabs__btn:hover {
+  color: #ffffff;
+}

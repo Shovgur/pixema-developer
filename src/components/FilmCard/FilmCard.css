@@ -1,0 +1,37 @@
+.filmCard {
+  width: 266px;
+}
+
+.filmCard__image {
+  border-radius: 20px;
+  overflow: hidden;
+  display: flex;
+  margin-bottom: 24px;
+}
+
+.filmCard__image img {
+  width: 266px;
+  height: 357px;
+}
+
+.filmCard__info__title {
+  cursor: pointer;
+  transition: 0.3s;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+  margin-bottom: 4px;
+}
+
+.filmCard__info__title:hover {
+  color: #7b61ff;
+}
+
+.filmCard__info__type {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #afb2b6;
+}

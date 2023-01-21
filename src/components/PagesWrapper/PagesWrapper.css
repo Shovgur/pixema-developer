@@ -1,0 +1,10 @@
+.pages__container {
+  display: flex;
+  gap: 146px;
+  padding-bottom: 64px;
+}
+
+.pages__content {
+  flex-grow: 1;
+  padding-top: 40px;
+}
